@@ -1,0 +1,67 @@
+.work 
+	background-color: #ebebeb
+	height: 500px
+
+
+	.work-container 
+		padding-top: 30px
+
+
+	.work-row 
+		margin: 0px auto
+		max-width: 960px
+		clear: both
+
+		.work-unit
+			display: block
+			width: 25%
+			float: left
+			position: relative
+			padding-top: 15%
+			overflow: hidden
+			
+			background:
+				image: url("../img/bg.jpg")
+				position: center center
+				repeat: no-repeat
+				size: cover
+
+			.place-holder
+				position: absolute 
+				top: 100%
+				left: 0px
+				bottom: null
+				right: 0px
+				height: 100%
+				background: fade-out(#6182aa, 0.1)
+				text-align: center
+
+				strong
+					color: white
+					font-weight: 300
+					text-transform: uppercase
+					display: block
+					padding: 20px
+					font-size: 23px
+					line-height: 1.2
+
+				.zoom-icon
+					height: 30px
+					width: 30px
+					margin: 0px auto
+					background-color: white
+
+			&:hover .place-holder
+				position: absolute
+				top: 0%
+				left: 0px
+				bottom: null
+				right: 0px 
+
+
+				
+
+			
+
+
+	
