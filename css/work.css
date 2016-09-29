@@ -1,0 +1,48 @@
+.work {
+  background-color: #ebebeb;
+  height: 500px; }
+  .work .work-container {
+    padding-top: 30px; }
+  .work .work-row {
+    margin: 0px auto;
+    max-width: 960px;
+    clear: both; }
+    .work .work-row .work-unit {
+      display: block;
+      width: 25%;
+      float: left;
+      position: relative;
+      padding-top: 15%;
+      overflow: hidden;
+      background-image: url("../img/bg.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .work .work-row .work-unit .place-holder {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        right: 0px;
+        height: 100%;
+        background: rgba(97, 130, 170, 0.9);
+        text-align: center; }
+        .work .work-row .work-unit .place-holder strong {
+          color: white;
+          font-weight: 300;
+          text-transform: uppercase;
+          display: block;
+          padding: 20px;
+          font-size: 23px;
+          line-height: 1.2; }
+        .work .work-row .work-unit .place-holder .zoom-icon {
+          height: 30px;
+          width: 30px;
+          margin: 0px auto;
+          background-color: white; }
+      .work .work-row .work-unit:hover .place-holder {
+        position: absolute;
+        top: 0%;
+        left: 0px;
+        right: 0px; }
+
+/*# sourceMappingURL=work.css.map */

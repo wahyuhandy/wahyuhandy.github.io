@@ -59,10 +59,14 @@ header {
     margin-left: 182px;
     margin-right: 182px; }
   .profile .picture {
-    height: 170px;
-    width: 170px;
-    background-color: #ebebeb;
+    height: 166px;
+    width: 166px;
+    border: 4px solid #ebebeb;
+    background-color: white;
     float: left; }
+    .profile .picture img {
+      height: 166px;
+      width: 166px; }
   .profile p {
     text-align: justify;
     margin-left: 220px;
